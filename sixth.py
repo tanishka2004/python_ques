@@ -33,3 +33,43 @@ def print_len(cities):
     print(cities)
 
 print_len(cities)
+
+# Ques!
+# def facto(a):
+#     fact = 1
+#     i = 1
+#     while i <= a:
+#         fact *= i
+#         i += 1
+#     print(fact)
+# facto(5)
+
+# Ques
+# def cal_inr(a):
+#     i = a*83
+#     print(i)
+# cal_inr(2)
+
+# Ques!
+# def check(a):
+#     if(a % 2 == 0):
+#         print("Even")
+#     else:
+#         print("Odd")
+
+# check(54)    
+
+# Recursion
+# recursive function
+# def show(a):
+#     if(a == 0): #base case -> stopping condition
+#         return
+#     print(a)
+#     show(a-1)
+# show(3)
+
+def fact(a):
+    if(a == 1 & a == 0):
+        return 1
+    return fact(a - 1) * a
+print(fact(5))
