@@ -68,8 +68,15 @@ print_len(cities)
 #     show(a-1)
 # show(3)
 
-def fact(a):
-    if(a == 1 & a == 0):
-        return 1
-    return fact(a - 1) * a
-print(fact(5))
+# def fact(a):
+#     if(a == 1 & a == 0):
+#         return 1
+#     return fact(a - 1) * a
+# print(fact(5))
+
+# Ques!
+def sum(a):
+     if(a == 0):
+        return 0
+     return sum(a - 1) + a
+print(sum(5))
