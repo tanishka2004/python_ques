@@ -76,6 +76,15 @@
 #      return sum(a - 1) + a
 # print(sum(6))
 
+# Ques!
+# def lis(list,idx = 0):
+#     if(idx == len(list)):
+#         return
+#     print(list[idx])
+#     lis(list, idx+1)
+# fruits = "mango" , "litchi", "apple", "grapes"
+# lis(fruits)
+
 # x = int(input("Enter the 1st number"))
 # y = int(input("Enter the 2nd number"))
 # sum = x + y
