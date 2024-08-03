@@ -17,10 +17,10 @@
 # f.write("yes")
 # f.close()
 
-# f = open("demo.txt", "r+")
-# f.write("okay")
-# print(f.read())
-# f.close()
+f = open("demo.txt", "r+")
+f.write("okay")
+print(f.read())
+f.close()
 
 # f = open("demo.txt", "w+") 
 # print(f.read())
